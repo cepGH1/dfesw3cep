@@ -10,7 +10,15 @@ else:
 myMark = input("please enter your mark: ")
 if int(myMark) > 85:
     print("distinction")
-elif int(myMark) >= 65:
+if int(myMark) >= 65 and int(myMark) < 86:
+    print("pass")
+else:
+    print("fail")
+
+myMark = input("please enter your mark: ")
+if int(myMark) > 85:
+    print("distinction")
+elif int(myMark) >= 65 :
     print("pass")
 else:
     print("fail")
