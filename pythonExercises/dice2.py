@@ -1,5 +1,8 @@
 #dice2
+#import pdb
 import dice1
+
+#pdb.set_trace()
 
 myRange = int(input("enter a reasonable integer : "))
 myNum =[]
